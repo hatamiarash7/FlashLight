@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2017 - All Rights Reserved - Arash Hatami
+  -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_holder"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_margin">
+
+    <ImageView
+        android:id="@+id/toggle_btn"
+        android:layout_width="@dimen/main_button_size"
+        android:layout_height="@dimen/main_button_size"
+        android:layout_marginBottom="@dimen/activity_margin"
+        android:background="@drawable/circles_big"/>
+
+    <ImageView
+        android:id="@+id/bright_display_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_margin"
+        android:layout_marginTop="@dimen/buttons_margin"
+        android:background="@mipmap/bright_display"
+        android:padding="@dimen/activity_margin"/>
+
+    <ImageView
+        android:id="@+id/stroboscope_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/buttons_margin"
+        android:background="@mipmap/stroboscope"
+        android:padding="@dimen/activity_margin"/>
+
+    <SeekBar
+        android:id="@+id/stroboscope_bar"
+        android:layout_width="@dimen/seekbar_width"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_margin"
+        android:paddingBottom="@dimen/seekbar_vertical_padding"
+        android:paddingTop="@dimen/seekbar_vertical_padding"
+        android:visibility="invisible"/>
+
+</LinearLayout>

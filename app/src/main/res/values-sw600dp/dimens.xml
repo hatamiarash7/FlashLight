@@ -1,0 +1,10 @@
+<!--
+  ~ Copyright (c) 2017 - All Rights Reserved - Arash Hatami
+  -->
+
+<resources>
+    <dimen name="social_padding">12dp</dimen>
+    <dimen name="social_logo">50dp</dimen>
+
+    <dimen name="normal_text_size">18sp</dimen>
+</resources>

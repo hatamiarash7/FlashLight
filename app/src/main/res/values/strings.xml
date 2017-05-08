@@ -1,0 +1,16 @@
+<!--
+  ~ Copyright (c) 2017 - All Rights Reserved - Arash Hatami
+  -->
+
+<resources>
+    <string name="app_name">چراغ قوه</string>
+    <string name="app_launcher_name">چراغ قوه</string>
+    <string name="camera_error">مشکلی به وجود آمده است</string>
+    <string name="ok">باشه</string>
+    <string name="camera_permission">دسترسی به دوربین نیاز است</string>
+    <!-- Settings -->
+    <string name="settings">تنظیمات</string>
+    <string name="dark_theme">تم تیره</string>
+    <string name="bright_display">صفحه تمام روشن</string>
+    <string name="show_stroboscope">چرخشنما ( استروبوسکوپ )</string>
+</resources>
