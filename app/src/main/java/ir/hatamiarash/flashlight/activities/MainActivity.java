@@ -30,6 +30,7 @@ import com.squareup.otto.Subscribe;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
+import co.ronash.pushe.Pushe;
 
 public class MainActivity extends SimpleActivity {
     private static final int CAMERA_PERMISSION = 1;
@@ -53,6 +54,9 @@ public class MainActivity extends SimpleActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+    
+        Pushe.initialize(this,true);
+        
         ButterKnife.bind(this);
         mBus = BusProvider.getInstance();
         changeIconColor(R.color.translucent_white, mBrightDisplayBtn);

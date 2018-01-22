@@ -21,3 +21,11 @@
     @com.squareup.otto.Subscribe public *;
     @com.squareup.otto.Produce public *;
 }
+
+-keep class butterknife.*
+-keep class butterknife.** { *; }
+-keep class **$$ViewInjector { *; }
+-keep class **$$ViewBinder { *; }
+-keepclasseswithmembernames class * { @butterknife.* <methods>; }
+-keepclasseswithmembernames class * { @butterknife.* <fields>; }
+-dontwarn butterknife.internal.**
